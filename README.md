@@ -1,43 +1,21 @@
-Speech-to-Text Conversational AI
-This project is a speech-to-text conversational AI that uses speech recognition, text-to-speech, and the LangChain Ollama conversational model to interact with users in real time. The system listens to user input, processes it, and responds with spoken text. It allows for natural conversations by continuously updating the conversation context.
+# Speaking Chatbot
 
-Features
-Real-time speech recognition using speech_recognition library.
-Text-to-speech output using pyttsx3.
-Conversational AI powered by the LangChain OllamaLLM model.
-Customizable voice settings and speech rate.
-Continuous conversation context tracking.
-Installation
-Clone this repository:
+This Python program utilizes speech recognition and language processing to facilitate conversational interaction.
 
-bash
-Copy code
-git clone https://github.com/yourusername/speech-to-text-conversational-ai.git
-Navigate to the project directory:
+## Installation
 
-bash
-Copy code
-cd speech-to-text-conversational-ai
-Install the required dependencies:
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   cd SpeakingChatbot
+   ```
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-bash
-Copy code
-pip install -r requirements.txt
-Requirements
-Python 3.x
-Libraries (included in requirements.txt):
-speech_recognition
-pyttsx3
-langchain_ollama
-langchain_core
-Usage
-To run the project, simply execute the main Python script:
+## Usage
 
-bash
-Copy code
+Run the program using:
+```bash
 python main.py
-The AI will listen for your input, respond using the LangChain Ollama model, and speak the response back to you.
-
-Voice Commands
-Say "exit" or "stop" to terminate the conversation.
-After each response, the AI will say "listening" and wait for further input.
